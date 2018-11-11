@@ -1,0 +1,17 @@
+{
+    "name": "muller/aula10",
+    "description": "Exemplo de valida\u0000\u0000o de front e back end.",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Muller Goncalves",
+            "email": "mrmiller94@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "twbs/bootstrap": "^3.4@dev",
+        "components/jquery": "dev-master"
+    }
+}

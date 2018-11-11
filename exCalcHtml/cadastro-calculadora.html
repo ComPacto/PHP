@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Calculadora</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+  </head>
+  <body>
+    <h1>Escreva os números e escolha uma opção conforte abaixo</h1>
+    <p>
+      1 - Somar
+    <br>
+      2 - Subtrair
+    <br>
+      3 - Multiplicar
+    <br>
+      4 - Dividir
+    <br>
+      5 - Potência
+    <br>
+      6 - Raiz (a raiz será retirada apenas do primeiro número)
+    </p>
+    <form name="cadcalc" method="POST" action="controle/controle-calculadora.php">
+      <div>
+        <input type="number" name="num1" placeholder="Digite o primeiro número" autofocus style="width:250px">
+      </div>
+      <div>
+        <input type="number" name="num2" placeholder="Digite o segundo número" style="width:250px">
+      </div>
+      <div>
+        <input type="number" name="op" placeholder="Digite um número conforme a legenda" style="width:250px">
+      </div>
+      <div>
+        <input type="submit" value="Calcular" style="width:125px">
+        <input type="reset" value="Limpar" style="width:125px">
+      </div>
+    </form>
+  </body>
+</html>

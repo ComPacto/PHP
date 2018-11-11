@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Conversor</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+  </head>
+  <body>
+    <h1>Escreva os números e escolha uma opção conforte abaixo</h1>
+    <p>
+      1 - Idade em meses
+    <br>
+      2 - Idade em semanas
+    <br>
+      3 - Idade em dias
+    <br>
+      4 - Idade em horas
+    <br>
+      5 - Idade em minutos
+    <br>
+      6 - Idade em segundos
+    <br>
+    </p>
+    <form name="cadidade" method="POST" action="controle/controle-conversor.php">
+      <div>
+        <input type="number" name="ano" placeholder="Digite seu ano de nascimento" autofocus style="width:250px">
+      </div>
+      <div>
+        <input type="number" name="op" placeholder="Digite o número conforme a legenda" style="width:250px">
+      </div>
+      <div>
+        <input type="submit" value="Verificar" style="width:125px">
+        <input type="reset" value="Limpar" style="width:125px">
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Cadastro de Pessoa</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+  </head>
+  <body>
+    <h1>Cadastro de Pessoas</h1>
+    <form name="cadpess" method="POST" action="controle/controle-pessoa.php">
+      <div>
+        <input type="text" name="txtnome" placeholder="Digite seu nome" autofocus>
+      </div>
+      <div>
+        <input type="number" name="numidade" placeholder="Digite sua idade">
+      </div>
+      <div>
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Limpar">
+      </div>
+    </form>
+  </body>
+</html>
